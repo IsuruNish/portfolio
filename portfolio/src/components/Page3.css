@@ -1,0 +1,82 @@
+.PageThree{
+    min-height: 100vh;
+    background-color: #252A34;
+    min-width: 100%;
+    /* padding-right: 8rem ;
+    padding-left: 5rem ; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+
+
+.vertical-timeline-element-content{
+  box-shadow: none !important;
+}
+
+
+
+.popupModel {
+  padding: 4%;
+  font-size: 12px;
+  /* background-color: rgba(0,0,0,.5); */
+}
+.popupHeader {
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+  padding: 5px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.popupSubHeader{
+  width: 100%;
+  font-size: 16px;
+  text-align: right;
+  color: #000000;
+  font-weight: 300;
+  opacity: 0.5;
+
+
+}
+
+.popupContent {
+  width: 100%;
+  padding: 5px 5px;
+  color: #000000;
+  font-size: 16px;
+  text-align: justify;
+
+}
+
+.popupClose {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+  color: #000000;
+  font-weight: 900;
+  transition: 0.5s ease;
+}
+
+.popup-content {
+  border: none !important;
+  padding: 0 !important;
+  
+}
+
+
+.cardPopUP{
+  width: 30rem;
+  margin: auto;
+}
