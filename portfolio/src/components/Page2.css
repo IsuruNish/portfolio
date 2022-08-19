@@ -1,0 +1,90 @@
+.pageTwo{
+    min-height: 100vh;
+    background-color: #EAEAEA;
+    min-width: 100%;
+    padding-right: 8rem ;
+    padding-left: 5rem ;
+}
+
+#aboutMe{
+    color: #252A34;
+    text-align: center;
+    padding-top: 6%;
+    font-weight: 600;
+}
+
+#Title2{
+    color: #252A34;
+    text-align: center;
+    /* padding-top: 2%; */
+    font-weight: 600;
+    /* font-size: 24px; */
+}
+
+.row{
+    text-align: center;
+}
+
+.imagePage2{
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#aboutMeBox{
+    text-align: justify;
+    /* margin-top: 0.5rem; */
+    transition: 0.5s ease;
+    padding: 2rem;
+   
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, #FF2E63 0px 3px 6px;
+    background-color: #FF2E63;
+
+}
+#AboutMeH3Tag{
+    color:#EAEAEA;
+    font-weight:700
+}
+
+#aboutMeText{
+    color:#EAEAEA;
+    font-size: 22px;
+    padding-top: 0.5rem;
+}
+
+#btn2{
+    width: 30%;
+    background-color: transparent;
+    color: #252A34;
+    font-weight: 700;
+    transition: 0.4s ease;
+    padding: 1rem;
+}
+
+#btn2:hover{
+    background-color: #252A34;
+    color: #EAEAEA;
+    transition: 0.4s ease;
+}
+
+
+
+@media (max-width: 500px) {
+    #aboutMeBox{
+        margin-bottom: 2rem;
+    }
+
+    #AboutMeH3Tag{
+        font-size: 1.3rem;
+        text-align: center;
+        min-height: 3.5rem;
+    }
+    
+    #aboutMeText{
+        color:#EAEAEA;
+        font-size: 22px;
+        font-size: 1rem;
+
+    }
+}
