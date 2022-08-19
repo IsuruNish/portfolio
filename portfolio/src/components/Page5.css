@@ -1,0 +1,69 @@
+.PageFive{
+    min-height: 100vh;
+    background-color: #252A34;
+    min-width: 100%;
+    padding-bottom: 5%;
+    /* display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center; */
+}
+
+
+/* .progressSkills{
+
+
+
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    
+} */
+
+.progressSkill{
+    width: 50%;
+    margin: auto;
+}
+
+.headingSkills{
+    margin: auto;
+    /* text-align: center; */
+    background-color: #08D9D6;
+    width: fit-content;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+
+.headingSkills h4{
+    color: #000;
+}
+
+
+
+
+@media (max-width: 500px) {
+    .headingSkills{
+        margin-bottom:1.6rem ;
+    }
+
+    .headingSkills h4{
+        font-size: 18px;
+    }
+
+    .progressSkill h5{
+        font-size: 14px;
+    }
+
+
+
+    #lastSkill{
+        margin-bottom: 1.6rem;
+    }
+
+}
