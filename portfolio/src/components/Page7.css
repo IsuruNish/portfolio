@@ -1,0 +1,89 @@
+.PageSeven{
+    min-height: 92vh;
+    background-color: #252A34;
+    min-width: 100%;
+}
+
+#aboutMe2{
+    color: #252A34;
+    text-align: center;
+    padding-top: 2%;
+    font-weight: 600;
+}
+
+.conatct{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: aqua;
+}
+
+.contactNumbers{
+    text-align: left;
+    margin-left: 10%;
+}
+
+
+.contactNumbers2{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: row; */
+    margin-bottom: 3%;
+    padding-top: 5%;
+
+}
+
+.imageConatc{
+    margin: auto;
+    display: flex;
+    /* padding-bottom: 5%; */
+}
+
+.buttonSend{
+    background-color: #FF2E63;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-right:2.4%;
+    padding-left:2.4%;
+    transition: 0.3s ease;
+    border: 2px solid #FF2E63;
+}
+
+.buttonSend:hover{
+    background-color: #252A34;
+    border: 2px solid white;
+    transition: 0.3s ease;
+}
+
+.formEmail{
+    margin-top: 3%;
+    margin: auto;
+    width: 90%;
+    text-align: left;
+    margin-left: 15%;
+}
+
+
+@media (max-width: 500px) {
+
+    .contactNumbers{
+        margin-top: 10%;
+    }
+
+    .contactNumbers{
+        margin: auto;
+        margin-top: 10%;
+        margin-left: 3%;
+    }
+
+    .formEmail{
+        margin: auto;
+    }
+
+    .imageConatc{
+        width: 15%;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+}
