@@ -1,0 +1,25 @@
+.PageSix{
+    min-height: 100vh;
+    background-color: #EAEAEA;
+    min-width: 100%;
+}
+
+.popupSubheader{
+    text-align: left;
+    opacity: 0.6;
+}
+
+.cardBoxes{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cardBoxHeight{
+    min-height: 25vh;
+}
+
+.centerME{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
