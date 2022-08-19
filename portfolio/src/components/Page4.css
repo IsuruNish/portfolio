@@ -1,0 +1,13 @@
+.PageFour{
+    min-height: 100vh;
+    background-color: #EAEAEA;
+    min-width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center; */
+}
+
+.dateStyle{
+    color: black;
+}
