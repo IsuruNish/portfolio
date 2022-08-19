@@ -1,0 +1,77 @@
+.linkTag{
+    color: #EEEEEE;
+    transition: 0.6s ease;
+    font-weight: 550;
+    padding-bottom: 3px;
+    transition: border-width 0.6s linear;
+}
+
+.linkTag:hover{
+    color: #FF2E63;
+    transition: all 0.6s ease;
+    border-bottom: 1px solid #FF2E63;   
+    border-width: 5px; 
+}
+
+.linkTag.scrollShow:hover{
+  color: #000;
+  transition: all 0.6s ease;
+  border-bottom: 1px solid #000;   
+  border-width: 5px; 
+}
+
+.spanHeading{
+  transition: 0.4s ease;
+
+  color:#FF2E63
+}
+
+#logo{
+  font-family: 'Water Brush', cursive;
+}
+
+/* .linkTag:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: #FF2E63;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    color: #FF2E63;
+  }
+
+.linkTag:hover:after { 
+    width:100%; 
+    right: 0; 
+  } */
+
+.navBarPage{
+  z-index: 1;
+  /* background-color: #252A34; */
+  /* position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; */
+  min-width: 100%;
+
+  transition: 0.8s ease-in-out;
+}
+
+.navBarPage.ativate{
+  position: fixed;
+  top: 0;
+  background-color: #FF2E63;
+  min-width: 100%;
+
+  transition: 0.8s ease-in-out;
+
+}
+
+
+.spanHeading.ativate{
+  transition: 0.4s ease;
+  color:#EAEAEA
+}
