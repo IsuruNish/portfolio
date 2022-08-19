@@ -1,0 +1,219 @@
+#h1Tag{
+    font-size: 5rem;
+    animation: fadeIn 1s 1.7s backwards;
+}
+
+#h3Tag{
+    font-size: 2rem;
+}
+
+#typeWritterText{
+    padding-top: 14rem;
+}
+
+.imageME{
+    padding-top: 22rem;
+}
+
+#btn{
+    font-weight: 900;
+    margin-top: 4%;
+    transition: 0.3s ease;
+    padding: 3%;
+    border: 2px solid #FF2E63;
+    background-color: #FF2E63;
+}
+
+#btn:hover{
+    transition: 0.3s ease;
+    border: 2px solid #EAEAEA;
+    background-color: transparent;
+
+}
+
+.scroolUPBtn{
+    position: fixed;
+    bottom: 0px;
+    right: 30px;
+    padding: 0.2%;
+    background-color: #08D9D6;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 100;
+    transition: all 0.3s ease;
+}
+
+.scroolUPBtn.show{
+    opacity: 1;
+    bottom: 30px;
+    pointer-events: auto;
+}
+
+#textLetter1{
+    color:#EAEAEA;
+    transition: 0.2s ease;
+}
+#textLetter2{
+    color:#EAEAEA;
+    transition: 0.2s ease;
+}
+#textLetter3{
+    color:#EAEAEA;
+    transition: 0.2s ease;
+}
+#textLetter4{
+    color:#EAEAEA;
+    transition: 0.2s ease;
+}
+#textLetter5{
+    color:#EAEAEA;
+    transition: 0.2s ease;
+}
+#textLetter6{
+    color:#EAEAEA;
+    transition: 0.2s ease;
+}
+#textLetter7{
+    color:#EAEAEA;
+    transition: 0.2s ease;
+}
+#textLetter8{
+    color:#EAEAEA;
+    transition: 0.2s ease;
+}
+#textLetter9{
+    color:#EAEAEA;
+    transition: 0.2s ease;
+}
+#textLetter10{
+    color:#EAEAEA;
+    transition: 0.2s ease;
+}
+#textLetter11{
+    color:#EAEAEA;
+    transition: 0.2s ease;
+}
+#textLetter12{
+    color:#EAEAEA;
+    transition: 0.2s ease;
+}#textLetter13{
+    color:#EAEAEA;
+    transition: 0.2s ease;
+}
+
+#textLetter1:hover{
+    color: #08D9D6;
+    transition: 0.2s ease;
+}
+#textLetter2:hover{
+    color: #08D9D6;
+    transition: 0.2s ease;
+}
+#textLetter3:hover{
+    color: #08D9D6;
+    transition: 0.2s ease;
+}
+#textLetter4:hover{
+    color: #08D9D6;
+    transition: 0.2s ease;
+}
+#textLetter5:hover{
+    color: #08D9D6;
+    transition: 0.2s ease;
+}
+#textLetter6:hover{
+    color: #08D9D6;
+    transition: 0.2s ease;
+}
+#textLetter7:hover{
+    color: #08D9D6;
+    transition: 0.2s ease;
+}
+#textLetter8:hover{
+    color: #08D9D6;
+    transition: 0.2s ease;
+}
+#textLetter9:hover{
+    color: #08D9D6;
+    transition: 0.2s ease;
+}
+#textLetter10:hover{
+    color: #08D9D6;
+    transition: 0.2s ease;
+}
+#textLetter11:hover{
+    color: #08D9D6;
+    transition: 0.2s ease;
+}
+#textLetter12:hover{
+    color: #08D9D6;
+    transition: 0.2s ease;
+}
+#textLetter13:hover{
+    color: #08D9D6;
+    transition: 0.2s ease;
+}
+
+
+
+
+@media (max-width: 1919px) {
+    .imageME{
+        padding-top: 11rem;
+    }
+
+    #h1Tag{
+        font-size: 5rem;
+    }
+    
+    #h3Tag{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1223px) {
+    /* #typeWritterText{
+        padding-top: 3rem;
+    } */
+
+    #h1Tag{
+        font-size: 3.5rem;
+    }
+
+    #h3Tag{
+        font-size: 1.8rem;
+    }
+
+    #btn{
+        font-weight: 900;
+        margin-top: 4%;
+        transition: 0.3s ease;
+        padding: 2%;
+        border: 2px solid #FF2E63;
+        background-color: #FF2E63;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    /* #typeWritterText{
+        padding-top: 3rem;
+    } */
+
+    #h1Tag{
+        font-size: 4rem;
+    }
+
+    #h3Tag{
+        font-size: 1.4rem;
+    }
+
+    #aboutMe{
+        font-size: 24px;
+    }
+
+    #Title2{
+        font-size: 20px;
+    }
+}

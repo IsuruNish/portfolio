@@ -1,0 +1,39 @@
+*{
+    z-index: 0;
+    color: #EAEAEA;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    /* background-color: #EAEAEA; */
+}
+
+.height100{
+    background-color: #252A34;
+    min-height: 100vh;
+    background-image: url('../../public/bghome2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.loader{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #252A34;
+    align-items: center;
+    width: 100%;
+}
+
+.loaderH1{
+    min-height: 6vh;
+    margin-top: 2rem;
+    color: #FF2E63;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "Great Vibes",
+    cursive; 
+    font-weight: normal;
+    margin-bottom: 0px;
+    text-align: center; 
+}
