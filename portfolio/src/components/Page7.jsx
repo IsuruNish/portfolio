@@ -32,7 +32,7 @@ export default function Page7() {
   };
 
   return (
-    <div className="container PageSeven" id="page7">
+    <div className="container PageSeven" id="contact">
       <div className="mb-3" data-aos="fade-up" data-aos-duration="800">
         <h1 id="aboutMe2" style={{ color: "#EAEAEA" }}>
           Contact

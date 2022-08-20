@@ -22,9 +22,9 @@ export default function Page1() {
   window.addEventListener("scroll", showUPbtn);
 
   return (
-    <div className="container" id="page1">
+    <div className="container" id="home">
       <div className="scroolUPBtn" id="showUPbtn">
-        <HashLink to="#page1">
+        <HashLink to="#home">
           <img src={arrow} style={{ height: 30 }} />
         </HashLink>
       </div>

@@ -39,7 +39,7 @@ let education = [
 
 export default function Page3() {
   return (
-    <div className="container PageThree" id="page3">
+    <div className="container PageThree" id="education">
       <div className="mb-4" data-aos="fade-up" data-aos-duration="800">
         <h1 id="aboutMe" style={{ color: "#EAEAEA" }}>
           Education
