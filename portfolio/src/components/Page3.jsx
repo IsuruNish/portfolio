@@ -17,7 +17,7 @@ let education = [
     title: "GCE (A/L) in Mathematics stream",
     location: "Ananda College, Colombo 10",
     date: "2005 – 2018",
-    description: "I was able to obtain an A for Physics and 2 Bs for Combined Mathematics and Chemistry with a z-score of 1.7488 obtaining a district rank of 353 from Colombo.",
+    description: "I was able to obtain an A for Physics and 2 Bs for Combined Mathematics and Chemistry with a Z-Score of 1.7488 obtaining a district rank of 353 from Colombo.",
   },
 
   {
@@ -33,7 +33,7 @@ let education = [
     title: "B.Sc. (Hons.) in Computer Science ",
     location: "University of Colombo School of Computing",
     date: "2020 – present",
-    description: "I am currently studying as a 3rd year undergraduate with a GPA of 3.94/4.0 and with the overall batch rank of 4th",
+    description: "I am currently studying as a 3rd year undergraduate with a GPA of 3.94 out of 4.0 and with the batch rank of 4th",
   },
 ];
 
@@ -122,6 +122,17 @@ export default function Page3() {
                 <h5 className="card-title popupHeader">Finalist (4th) in iCS Hack The World</h5>
                 <p className="card-text popupContent">iCS Hack the World is an Inter-University 24-hour Capture the Flag competition, organized by the UCSC ISACA Student Group. Our team was able to reach the 4th place in the Final Round.</p>
                 <h6 className="popupSubHeader">Jan 2021</h6>
+              </div>
+            </div>
+          </div>
+
+          <div className="row md-12">
+            <div className="card cardPopUP mt-3">
+              {/* <img src={schoolAward} className="card-img-top"/> */}
+              <div className="card-body">
+                <h5 className="card-title popupHeader">ReidXtreme 2.0</h5>
+                <p className="card-text popupContent">ReidXtreme 2.0 is an online virtual hackathon consisted of three 24-hour competition phases. It was organized by the IEEE student branch of University of Colombo School of Computing for the 2nd time. Our team was able to reach the 8th place overall in the competition.</p>
+                <h6 className="popupSubHeader">2021</h6>
               </div>
             </div>
           </div>
