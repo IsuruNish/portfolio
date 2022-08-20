@@ -2,7 +2,6 @@ import * as React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "./Page3.css";
-import uniIcon from "../images/uni.png";
 import uni from "../images/uni2.png";
 import dipIcon from "../images/dip.png";
 import schoolIcon from "../images/school.svg";
@@ -10,7 +9,6 @@ import schoolAward from "../images/schooltime.jpeg";
 import achi from "../images/achi.jpg";
 
 import { Avatar } from "@mui/material";
-import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 
 let education = [
