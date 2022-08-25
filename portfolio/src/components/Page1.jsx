@@ -53,7 +53,7 @@ export default function Page1() {
               And I'm a<span style={{ color: "#FF2E63", fontWeight: 750 }}>{text}</span>
             </h3>
 
-            <HashLink to="#page7">
+            <HashLink to="#contact">
               <button id="btn">Contact Me</button>
             </HashLink>
           </div>

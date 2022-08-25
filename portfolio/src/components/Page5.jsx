@@ -12,7 +12,7 @@ export default function Page5() {
           <span style={{ color: "#FF2E63", fontWeight: 1000, fontSize: 20 }} className="material-symbols-outlined">
             arrow_back_ios
           </span>
-          Where do I know {"/"}
+          What do I know {"/"}
           <span style={{ color: "#FF2E63", fontWeight: 1000, fontSize: 20 }} className="material-symbols-outlined">
             arrow_forward_ios
           </span>
