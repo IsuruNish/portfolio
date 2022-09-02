@@ -33,7 +33,7 @@ let education = [
     title: "B.Sc. (Hons.) in Computer Science ",
     location: "University of Colombo School of Computing",
     date: "2020 – present",
-    description: "I am currently studying as a 3rd year undergraduate with a GPA of 3.94 out of 4.0 and with the batch rank of 4th",
+    description: "I am currently studying as a 3rd year undergraduate with a GPA of 3.94 out of 4.0",
   },
 ];
 

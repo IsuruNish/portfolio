@@ -1,14 +1,13 @@
-.PageFive{
-    min-height: 100vh;
-    background-color: #252A34;
-    min-width: 100%;
-    padding-bottom: 5%;
-    /* display: flex;
+.PageFive {
+  min-height: 100vh;
+  background-color: #252a34;
+  min-width: 100%;
+  padding-bottom: 5%;
+  /* display: flex;
     flex-direction: column;
     margin: auto;
     justify-content: center; */
 }
-
 
 /* .progressSkills{
 
@@ -23,47 +22,55 @@
     
 } */
 
-.progressSkill{
-    width: 50%;
-    margin: auto;
+.editBadge {
+  background-color: #ff2e63;
 }
 
-.headingSkills{
-    margin: auto;
-    /* text-align: center; */
-    background-color: #08D9D6;
-    width: fit-content;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    padding-right: 3%;
-    padding-left: 3%;
+.modfiedrow {
+  width: 30vw;
 }
 
-
-.headingSkills h4{
-    color: #000;
+.centerDiv {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+.progressSkill {
+  width: 50%;
+  margin: auto;
+}
 
+.headingSkills {
+  margin: auto;
+  /* text-align: center; */
+  background-color: #08d9d6;
+  width: fit-content;
+  padding-top: 0.5%;
+  padding-bottom: 0.2%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
 
+.headingSkills h4 {
+  color: #000;
+}
 
 @media (max-width: 500px) {
-    .headingSkills{
-        margin-bottom:1.6rem ;
-    }
+  .headingSkills {
+    margin-bottom: 1.6rem;
+  }
 
-    .headingSkills h4{
-        font-size: 18px;
-    }
+  .headingSkills h4 {
+    font-size: 18px;
+  }
 
-    .progressSkill h5{
-        font-size: 14px;
-    }
+  .progressSkill h5 {
+    font-size: 14px;
+  }
 
-
-
-    #lastSkill{
-        margin-bottom: 1.6rem;
-    }
-
+  #lastSkill {
+    margin-bottom: 1.6rem;
+  }
 }

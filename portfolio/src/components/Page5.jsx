@@ -23,7 +23,166 @@ export default function Page5() {
         <h4>Programming Languages</h4>
       </div>
 
-      <div className="w-100">
+      <div className="container centerDiv" data-aos="fade-up" data-aos-duration="2000">
+        <div className="row modfiedrow mt-4">
+          <div className="col-3">
+            <h4>
+              <span className="badge bg-secondary">C/C++</span>
+            </h4>
+          </div>
+
+          <div className="col-3">
+            <h4>
+              <span className="badge bg-secondary">Python</span>
+            </h4>
+          </div>
+
+          <div className="col-3">
+            <h4>
+              <span className="badge bg-secondary">Java SE</span>
+            </h4>
+          </div>
+
+          <div className="col-3">
+            <h4>
+              <span className="badge bg-secondary">Scala</span>
+            </h4>
+          </div>
+        </div>
+
+        <div className="row modfiedrow">
+          <div className="col-3">
+            <h4>
+              <span className="badge bg-secondary">R/Octave</span>
+            </h4>
+          </div>
+
+          <div className="col-3">
+            <h4>
+              <span className="badge bg-secondary">PHP</span>
+            </h4>
+          </div>
+
+          <div className="col-3">
+            <h4>
+              <span className="badge bg-secondary">JavaScript</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div className="headingSkills mt-5" data-aos="flip-right" data-aos-duration="5000">
+        <h4>Frameworks & Libraries </h4>
+      </div>
+
+      <div className="container centerDiv">
+        <div className="row modfiedrow mt-4">
+          <div className="col-4" data-aos="fade-up" data-aos-duration="2000">
+            <h4>
+              <span className="badge bg-secondary">React</span>
+            </h4>
+          </div>
+
+          <div className="col-4" data-aos="fade-up" data-aos-duration="2000">
+            <h4>
+              <span className="badge bg-secondary">Bootstrap</span>
+            </h4>
+          </div>
+
+          <div className="col-4" data-aos="fade-up" data-aos-duration="2000">
+            <h4>
+              <span className="badge bg-secondary">Bulma CSS</span>
+            </h4>
+          </div>
+        </div>
+
+        <div className="row modfiedrow">
+          <div className="col-4" data-aos="fade-up" data-aos-duration="2000">
+            <h4>
+              <span className="badge bg-secondary">Meterial UI</span>
+            </h4>
+          </div>
+          <div className="col-4" data-aos="fade-up" data-aos-duration="2000">
+            <h4>
+              <span className="badge bg-secondary">Tailwind</span>
+            </h4>
+          </div>
+
+          <div className="col-4" data-aos="fade-up" data-aos-duration="2000">
+            <h4>
+              <span className="badge bg-secondary">Nest JS</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div className="headingSkills mt-5" data-aos="flip-right" data-aos-duration="5000">
+        <h4>Server Side Exposure</h4>
+      </div>
+
+      <div className="container centerDiv">
+        <div className="row modfiedrow mt-4">
+          <div className="col-3" data-aos="fade-up" data-aos-duration="2000">
+            <h4>
+              <span className="badge bg-secondary">Node</span>
+            </h4>
+          </div>
+
+          <div className="col-3" data-aos="fade-up" data-aos-duration="2000">
+            <h4>
+              <span className="badge bg-secondary">Java EE</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div className="headingSkills mt-5" data-aos="flip-right" data-aos-duration="5000">
+        <h4>Database Management</h4>
+      </div>
+
+      <div className="container centerDiv">
+        <div className="row modfiedrow mt-4">
+          <div className="col-3" data-aos="fade-up" data-aos-duration="2000">
+            <h4>
+              <span className="badge bg-secondary">MySQL</span>
+            </h4>
+          </div>
+
+          <div className="col-3" data-aos="fade-up" data-aos-duration="2000">
+            <h4>
+              <span className="badge bg-secondary">MongoDB</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div className="headingSkills mt-5" data-aos="flip-right" data-aos-duration="5000">
+        <h4>Other</h4>
+      </div>
+
+      <div className="container centerDiv">
+        <div className="row modfiedrow mt-4">
+          <div className="col-3" data-aos="fade-up" data-aos-duration="2000">
+            <h4>
+              <span className="badge bg-secondary">Git</span>
+            </h4>
+          </div>
+
+          <div className="col-3" data-aos="fade-up" data-aos-duration="2000">
+            <h4>
+              <span className="badge bg-secondary">Figma</span>
+            </h4>
+          </div>
+
+          <div className="col-3" data-aos="fade-up" data-aos-duration="2000">
+            <h4>
+              <span className="badge bg-secondary">Docker</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="w-100">
         <div className="progressSkill" data-aos="fade-up" data-aos-duration="2000">
           <h5 style={{ color: "white" }}>C/C++</h5>
           <div className="progress progressBarSkill" style={{ height: "10px" }}>
@@ -154,7 +313,7 @@ export default function Page5() {
             <div className="progress-bar progress-bar-striped progress-bar-animated bg-danger" style={{ width: 50 }} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* <div className='headingSkills mt-5' data-aos="flip-right" data-aos-duration="5000">
             <h4>Frameworks/Libraries</h4>
