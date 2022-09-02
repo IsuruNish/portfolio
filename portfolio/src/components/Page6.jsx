@@ -37,9 +37,28 @@ export default function Page6() {
                 </li>
               </ul>
               <p className="card-title popupSubheader" style={{ color: "#000" }}>
-                2nd year group project (2021 – 2022)
+                2nd year group project (2021)
               </p>
             </div>
+          </div>
+        </div>
+
+        <div className="col-sm-6 mb-5 mt-1" data-aos="fade-up" data-aos-duration="2000" style={{ backgroundColor: "white" }}>
+          <div className="card-body cardBoxes">
+            <h5 className="card-title popupHeader" style={{ color: "#000" }}>
+              Weather Forecasting System
+            </h5>
+
+            <p className="card-text popupContent">A web application for checking the weather in cities.</p>
+            <ul>
+              <li style={{ color: "black" }}>
+                <b style={{ color: "black" }}> Tech stack:</b> : React, Bootstrap, Axios
+              </li>
+            </ul>
+
+            <p className="card-title popupSubheader" style={{ color: "#000" }}>
+              2022
+            </p>
           </div>
         </div>
 
